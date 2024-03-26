@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 # IPython service files:
+db/
 history*.sqlite

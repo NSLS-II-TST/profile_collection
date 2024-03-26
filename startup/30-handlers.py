@@ -19,4 +19,5 @@ class PandAHandlerHDF5(HandlerBase):
             return entry[:]
 
 
-db.reg.register_handler("PANDA", PandAHandlerHDF5, overwrite=True)
+# TODO: remove completely when Tiled is used:
+# db.reg.register_handler("PANDA", PandAHandlerHDF5, overwrite=True)
